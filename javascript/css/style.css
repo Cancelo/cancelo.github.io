@@ -1,0 +1,43 @@
+/* 
+    Author     : Rubén Cancelo Rodríguez
+    Created on : 25-ene-2016
+    Web: http://rcancelo.com
+*/
+@import url(https://fonts.googleapis.com/css?family=Dosis:200);
+body {
+	font-family: 'Dosis', sans-serif;
+}
+
+#main {
+	width: 800px;
+	margin: 0 auto;
+    
+}
+
+canvas {
+	border: 1px solid black;
+    background-image: url(../images/bg_inicio.gif);
+}
+
+#player {
+    width: 800px;
+    background-color: #ffffb3;
+}
+
+table {
+    width: 800px;
+    border: 1px solid darkgray;
+    text-align: center;
+}
+
+#cabeceraTabla {
+    border-bottom: 1px solid darkgray;
+}
+
+table .fila1 {
+    background-color: lightgray;
+}
+
+table .fila2 {
+}
+
