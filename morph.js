@@ -1,9 +1,10 @@
 'use strict';
 
 var morpher = function morpher(element, start, end) {
-  var chars = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', '4', '5', '6', '7', '8', '9', '%', '$', '?', '!'];
+  // var chars = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', '4', '5', '6', '7', '8', '9', '%', '$', '?', '!'];
+  var chars = [''];
   var duration = 2;
-  var frameRate = 25;
+  var frameRate = 30;
 
   var string = start.split('');
   var result = end.split('');
@@ -50,7 +51,8 @@ var morpher = function morpher(element, start, end) {
 $(function () {
   var button = document.querySelector('.js-morph-trigger');
   var morph = document.querySelector('*[data-morph]');
-  var words = ["Php", "JavaScript", "HTML5", "CSS3", "C#", "XAML", "Wordpress", "Bootstrap"];
+  // var words = ["Php", "JavaScript", "HTML5", "CSS3", "C#", "XAML", "Wordpress", "Bootstrap"];
+  var words = ["LAB"];
 
   var counter = 0;
 
